@@ -133,17 +133,17 @@ CSS STRUCTURE:
 }
 
 .bg-color-3 {
-  background: #ff9800 !important;
+  background-color: #ff9800 !important;
   color: white;
 }
 
 .bg-color-4 {
-  background: #191970 !important;
+  background-color: #191970 !important;
   color: white;
 }
 
 .bg-color-5 {
-  background: #685ae8 !important;
+  background-color: #685ae8 !important;
   color: white;
 }
 
