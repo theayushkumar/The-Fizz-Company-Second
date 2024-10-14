@@ -121,8 +121,8 @@ CSS STRUCTURE:
   --heading-font: "Nunito", sans-serif;
 }
 
-.header-color{
-  background: linear-gradient(90deg, rgba(2,193,204,1) 0%, rgba(65,115,218,1) 43%, rgba(125,42,232,1) 100%);
+.header-color {
+  background: linear-gradient(90deg, rgba(2, 193, 204, 1) 0%, rgba(65, 115, 218, 1) 43%, rgba(125, 42, 232, 1) 100%);
 }
 
 .bg-color-1 {
@@ -447,7 +447,7 @@ h6 {
 }
 
 /* for top margin for section */
-.mtl-130{
+.mtl-130 {
   margin-top: 130px;
 }
 
@@ -463,7 +463,9 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
-  background: #14235780;
+  /* background: #14235780; */
+  background: linear-gradient(90deg, rgb(2 193 204 / 36%) 0%, rgb(65 115 218 / 36%) 43%, rgb(125 42 232 / 36%) 100%);
+
 }
 
 header .nav-item a {
@@ -510,11 +512,11 @@ header nav button {
 }
 
 @media screen and (max-width:420px) {
-  .main-banner{
+  .main-banner {
     top: 13vh;
   }
 
-  #bg-video{
+  #bg-video {
     min-height: 87vh;
     max-height: 87vh;
   }
