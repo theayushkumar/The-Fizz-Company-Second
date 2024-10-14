@@ -454,7 +454,7 @@ h6 {
 /* header start  */
 .logo {
   width: 100px;
-  height: 100px;
+  /* height: 100px; */
   border-radius: 50%;
 }
 
@@ -507,6 +507,17 @@ header nav button {
 
 #bg-video::-webkit-media-controls {
   display: none !important;
+}
+
+@media screen and (max-width:420px) {
+  .main-banner{
+    top: 13vh;
+  }
+
+  #bg-video{
+    min-height: 87vh;
+    max-height: 87vh;
+  }
 }
 
 
