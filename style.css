@@ -121,6 +121,9 @@ CSS STRUCTURE:
   --heading-font: "Nunito", sans-serif;
 }
 
+.header-color{
+  background: linear-gradient(90deg, rgba(2,193,204,1) 0%, rgba(65,115,218,1) 43%, rgba(125,42,232,1) 100%);
+}
 
 .bg-color-1 {
   background-color: #142357 !important;
@@ -450,8 +453,9 @@ h6 {
 
 /* header start  */
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 header {
@@ -489,14 +493,14 @@ header nav button {
   max-height: 100%;
   overflow: hidden;
   margin-bottom: -7px;
-  top: 8vh;
+  top: 16vh;
 }
 
 #bg-video {
   min-width: 100%;
-  min-height: 92vh;
+  min-height: 85vh;
   max-width: 100%;
-  max-height: 92vh;
+  max-height: 85vh;
   object-fit: cover;
   z-index: -1;
 }
