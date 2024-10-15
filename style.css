@@ -452,7 +452,7 @@ h6 {
 }
 
 /* for social icons  */
-.social-icon{
+.social-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -537,92 +537,69 @@ header nav button {
 
 
 
-
-/* banner ad */
-.banner-ad {
-  position: relative;
+/* for product page  */
+.product_img {
+  width: 35vw;
+  min-width: 300px;
+  max-width: 500px;
   overflow: hidden;
-  border-radius: 12px;
+  margin: 0 auto 30px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.banner-ad.blue {
-  background: #e6f3fb;
+.product_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.banner-ad .swiper-pagination {
-  bottom: 40px;
-  left: 0;
-  right: 0;
-}
-
-.banner-ad .swiper-pagination .swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
-  margin: 4px;
-  background: #FFF;
-  opacity: 1;
-  transition: background 0.3s ease-out;
-}
-
-.banner-ad .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #FFC43F;
-}
-
-.banner-ad .swiper-slide {
-  min-height: 630px;
+.product_counter {
   display: flex;
+  width: 170px;
+  gap: 4px;
+  margin: 10px 0;
 }
 
-/* .banner-ad .banner-content {
-  padding: 52px;
-}
-.banner-ad.large .banner-content {
-  padding: 90px;
-} */
-.banner-ad .banner-content .categories {
-  font-family: 'Garamond';
-  font-size: 37px;
-  text-transform: capitalize;
-  color: var(--dark-color);
+.product_counter input {
+  background-color: #1da1d2;
+  text-align: center;
+  color: white;
 }
 
-.banner-ad .banner-content .sale {
-  position: relative;
-  display: inline-block;
+.product_action_btn {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+  gap: 10px;
 }
 
-.banner-ad .banner-content .sale:before {
-  content: '';
-  width: 80px;
-  border-bottom: 1px solid #111;
-  position: absolute;
-  bottom: 6px;
+.product_action_btn button {
+  flex: 1;
+  height: 54px;
 }
 
-.banner-ad .banner-content .sale:after {
-  content: 'SALE';
-  font-family: var(--body-font);
-  position: absolute;
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #252525;
-  bottom: 0;
-  right: 0;
+.product_action_btn .addCart {
+  border: 2px solid yellowgreen;
+  color: yellowgreen;
 }
 
-.banner-ad .banner-content .banner-title {
-  letter-spacing: 0.02em;
-  font-size: 33px;
+.product_action_btn .buyNow {
+  border: 2px solid darkcyan;
+  color: darkcyan;
 }
 
-.banner-ad.large .banner-content .categories {
-  color: rgb(255, 255, 255);
+
+#reviewForm input {
+  border: 1px solid gray;
 }
 
-.banner-ad.large .banner-content .banner-title {
-  font-size: 54px;
+#reviewForm textarea {
+  border: 1px solid gray;
+}
+
+.rating_color {
+  color: #ffbf00;
 }
 
 /* Swiper carousel */
