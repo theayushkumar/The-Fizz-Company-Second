@@ -650,6 +650,11 @@ header nav button {
   transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.category-item img{
+  width: 90px;
+  border-radius: 7px;
+  height: 90px;
+}
 
 .category-carousel .category-item:hover {
   transform: translate3d(0, -10px, 0);
