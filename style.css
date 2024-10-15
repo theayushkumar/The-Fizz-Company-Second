@@ -542,7 +542,7 @@ header nav button {
   width: 35vw;
   min-width: 300px;
   max-width: 500px;
-  margin: 0 auto 30px;
+  margin: 30px auto;
   border-radius: 7px;
   display: flex;
   overflow: auto;
