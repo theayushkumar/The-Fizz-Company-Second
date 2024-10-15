@@ -1,3 +1,13 @@
+
+(function ($) {
+    "use strict";
+
+    new WOW().init();
+
+
+})(jQuery);
+
+
 document.getElementById('toggleReviewForm').addEventListener('click', function () {
     var reviewForm = document.getElementById('reviewForm');
     var button = document.getElementById('toggleReviewForm');
@@ -10,12 +20,3 @@ document.getElementById('toggleReviewForm').addEventListener('click', function (
         button.textContent = 'Write a review'; // Reset button text
     }
 });
-(function ($) {
-    "use strict";
-
-    new WOW().init();
-
-
-})(jQuery);
-
-
