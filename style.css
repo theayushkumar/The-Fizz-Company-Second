@@ -454,7 +454,9 @@ h6 {
 .text-color{
   color: #8a9a5b;
 }
-
+a{
+  text-decoration: none;
+}
 /* for social icons  */
 .social-icon {
   width: 40px;
