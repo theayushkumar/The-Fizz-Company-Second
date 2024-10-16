@@ -451,6 +451,10 @@ h6 {
   margin-top: 130px;
 }
 
+.text-color{
+  color: #8a9a5b;
+}
+
 /* for social icons  */
 .social-icon {
   width: 40px;
@@ -608,8 +612,13 @@ header nav button {
   color: #ffbf00;
 }
 
-.active-menu{
+.active-menu {
   color: #05bfcd !important;
+}
+
+.menu-img {
+  width: 100px;
+  height: 100px
 }
 
 /* Swiper carousel */
@@ -660,7 +669,8 @@ header nav button {
   transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.category-item img{
+
+.category-item img {
   width: 90px;
   border-radius: 7px;
   height: 90px;
